@@ -1,4 +1,4 @@
-class partidas_rankeadas:
+class PartidasRankeadas:
     def calculadora(self, vitorias, derrotas):
         self.vitorias = vitorias
         self.derrotas = derrotas
@@ -21,5 +21,5 @@ class partidas_rankeadas:
 
         print(f"O Herói tem saldo de {saldo_vitorias} está no nível de {nivel}")
 
-rank_heroi = partidas_rankeadas()
+rank_heroi = PartidasRankeadas()
 rank_heroi.calculadora(50, 30)
